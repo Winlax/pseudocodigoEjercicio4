@@ -1,0 +1,31 @@
+Algoritmo Ejercicio4
+	
+	edadMayor = 0
+	edadMenor = 100
+	i = 0
+	
+	hacer 
+		
+		Escribir "Ingrese su edad" 
+		Leer edad
+		
+		si edad > edadMayor Entonces
+			
+			edadMayor = edad
+			
+		FinSi
+		
+		si edad < edadMenor Entonces
+			
+			edadMenor = edad
+			
+		FinSi
+		
+		i = i + 1
+		
+	Hasta Que i = 21  
+	
+	Escribir "La persona con mas edad tiene: " edadMayor
+	Escribir "La persona con menos edad tiene: " edadMenor
+	
+FinAlgoritmo
